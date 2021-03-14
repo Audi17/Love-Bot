@@ -1,0 +1,55 @@
+Q1=" Bonjour, Comment vas tu aujourd'hui ? "
+print(Q1)
+Reponse = input("")
+Q2 = " De quoi voudrais-tu discuter aujourd'hui ? "
+print(Q2)
+OA = " 1- Orientation Amoureuse et Sexuelle"
+Ide = "2- Identite de genre"
+print(OA)
+print(Ide)
+Reponse2 = input ("")
+Q3 = "Es-tu attiré.e par quelqu’un en ce moment ?"
+print(Q3)
+a = "a.Oui mais je ne suis pas sûre de vouloir en parler maintenant"
+b = "b.Non"
+print(a)
+print(b)
+Reponse3= input ("")
+if a:
+    print("Ne te sens pas obligée, c’est ton petit jardin secret ")
+else:
+    print("Cool, ton cœur est à prendre !")
+Q4 = "Pourrais-tu nous en dire plus ?"
+print(Q4)
+c = " a.Oui"
+d = " b. Non, pas pour l'instant"
+print(c)
+print(d)
+Reponse4= input ("")
+if d:
+    print("Surtout, ne te sens pas forcée")
+Q5 = "Comment je pourrais t'aider ?"
+print(Q5)
+e="a. Savoir ce qu'est l’orientation sexuelle et amoureuse."
+f="b. Comprendre LES orientations amoureuses et sexuelles."
+g="c. Coming out : quand, pourquoi, comment ?"
+h="d. Découvrir des témoignages."
+i="e. Connaître les droits des personnes LGBT+."
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
+Reponse5= input ("")
+if a:
+    print("https://cestcommeca.net/je-me-pose-des-questions/quest-ce-que-lorientation-sexuelle/")
+if b:
+    print("https://cestcommeca.net/lgbt-def/")
+if c:
+    print("https://cestcommeca.net/je-me-pose-des-questions/le-coming-out/")
+if d:
+    print("https://cestcommeca.net/vos-temoignages/")
+if e:
+    print("https://cestcommeca.net/mes-droits/")
+
+
